@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CounterContext } from "./CounterContext";
+import { CounterContext } from "../context/CounterContext";
 
 export const CounterProvider = ({children}) => {
     const [numberOfClicks, setNumberOfClicks] = useState(0);
