@@ -1,6 +1,6 @@
 import { useRecoilState, useRecoilValue } from "recoil";
 import { counterState } from "./counterState";
-import { incrementByState } from "../incrementByState";
+import { incrementByState } from "./incrementByState";
 import { numberOfClicksSelector } from "./numberOfClicksSelector";
 
 export const CounterButton = () => {
