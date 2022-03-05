@@ -1,14 +1,14 @@
+import { RecoilRoot } from 'recoil';
 import './App.css';
 import { CounterButton } from './CounterButton';
-import { CounterProvider } from './CounterProvider';
 
 function App() {
   return (
     <>
-    <CounterProvider>
+    <RecoilRoot>
       <h1>State Management Example</h1>
       <CounterButton />
-    </CounterProvider>
+    </RecoilRoot>
     </>
   );
 }
